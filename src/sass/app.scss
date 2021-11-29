@@ -1,0 +1,12 @@
+//basic config
+@import "./config.scss";
+//navbar
+@import "../components/search-header/search_header";
+//breadcrumb
+@import "../components/breadcrumb/breadcrumb";
+//pages
+@import "../pages/product-detail/one_product";
+@import "../pages/product-home/product";
+@import "../pages/product-list/products_list";
+//404
+@import "../pages/not-found/not_found_404";

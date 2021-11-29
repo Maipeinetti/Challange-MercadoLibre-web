@@ -1,0 +1,33 @@
+//colors
+$white: white;
+$yellow: #ffe600;
+$btn-blue: #3483fa;
+$lightGray-backround: #eeeeee;
+$midGray: #999999;
+$darkGray: #666666;
+$black: #333333;
+
+//basic config
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: $lightGray-backround;
+}
+
+//mixins
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//aditional config
+.spinner {
+  @include flexCenter();
+  margin-top: 20%;
+  color: $black;
+}
