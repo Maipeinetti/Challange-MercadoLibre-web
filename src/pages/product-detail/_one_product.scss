@@ -1,0 +1,48 @@
+@import "../../components/thumbnail/thumbnail";
+@import "../../components/description/description";
+@import "../../components/buttons/blue_btn";
+@import "../../components/sold-quantity/sold_quantity";
+
+.tdp {
+  @include flexCenter();
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: white;
+  margin: 0px 20%;
+}
+.thumbnail__description {
+  @include flexCenter();
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  margin: 0px 32px;
+}
+.description__title {
+  margin: 0px 32px;
+  font-size: 28px;
+  padding-bottom: 32px;
+  padding-top: 100px;
+  font-weight: normal;
+}
+.detail__price {
+  @include flexCenter();
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.price_title__div {
+  width: 100%;
+  padding-right: 32px;
+  .price {
+    font-size: 46px;
+    align-items: flex-start;
+    padding-bottom: 32px;
+  }
+  .title__p {
+    font-size: 24px;
+    padding-bottom: 32px;
+    font-weight: bold;
+  }
+}

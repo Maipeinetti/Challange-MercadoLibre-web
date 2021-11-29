@@ -1,0 +1,11 @@
+.product__p {
+  @include flexCenter();
+  font-size: x-large;
+  align-content: center;
+  justify-content: center;
+
+  width: 70%;
+  height: 1000px;
+  margin-top: 48px;
+  margin-left: 16%;
+}
