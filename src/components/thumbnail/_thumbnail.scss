@@ -1,0 +1,22 @@
+.thumbnail__div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+.swiper__container {
+  width: 700px;
+}
+
+.product__image {
+  height: 680px;
+  width: 680px;
+  border-radius: 4px;
+}
+
+.swiper__wrapper {
+  padding-inline-start: 0;
+  list-style: none;
+}
