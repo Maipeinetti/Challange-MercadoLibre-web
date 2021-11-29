@@ -1,0 +1,12 @@
+.blue__button {
+  @include flexCenter();
+  height: 70px;
+  width: 100%;
+  background-color: $btn-blue;
+  color: white;
+  border-radius: 6px;
+  font-size: 28px;
+  font-weight: normal;
+  border: none;
+  text-align: center;
+}

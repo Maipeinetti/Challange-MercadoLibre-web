@@ -1,0 +1,9 @@
+.stock__condition__div {
+  @include flexCenter();
+  justify-content: flex-start;
+  width: 50%;
+  margin-top: 32px;
+  padding-bottom: 16px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
