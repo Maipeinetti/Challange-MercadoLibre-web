@@ -1,0 +1,10 @@
+.search__icon {
+  @include flexCenter();
+  background-color: $lightGray-backround;
+  height: 100%;
+  width: 8%;
+  border-radius: 0px 8px 8px 0px;
+  button {
+    border: none;
+  }
+}

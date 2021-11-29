@@ -1,0 +1,9 @@
+@import "../logo/logo_navbar";
+@import "../search-input/inputSearch_navbar";
+@import "../buttons/iconSearch_narvar";
+
+.header__basic {
+  @include flexCenter();
+  background-color: $yellow;
+  height: 100px;
+}
